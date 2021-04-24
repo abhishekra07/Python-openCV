@@ -15,4 +15,11 @@ print(img.shape)
 cv2.imshow("Image", img)
 cv2.imshow("Output Image", imgOutput)
 
+# join two images
+imgHorizontal = np.hstack((img, img))
+imgVertical = np.vstack((img, img))
+
+cv2.imshow("Horizontal Joining", imgHorizontal)
+cv2.imshow("Vertical Joining", imgVertical)
+
 cv2.waitKey(0)
