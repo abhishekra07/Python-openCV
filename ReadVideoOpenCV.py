@@ -7,7 +7,7 @@ cap.set(4, 480)  # height
 cap.set(10, 100)  # brightness
 
 while True:
-    success, img = cap.read()  # read image as video is nothing but sequence/frame of images. success flag indicate
+    success, img = cap.read()  # rea5d image as video is nothing but sequence/frame of images. success flag indicate
     # whether image is captured successfully or not
 
     cv2.imshow("Video Window", img)
